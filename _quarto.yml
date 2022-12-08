@@ -1,9 +1,10 @@
 project:
   type: book
+  output-dir: docs
 
 book:
-  title: "Textbook"
-  author: "Jane Doe"
+  title: "Data Literacy"
+  author: "Gabby Giacomangeli"
   date: "12/8/2022"
   chapters:
     - index.qmd
@@ -16,8 +17,9 @@ bibliography: references.bib
 format:
   html:
     theme: cosmo
-  pdf:
-    documentclass: scrreprt
+    execute:
+      echo: true
+  
 
 editor: visual
 
